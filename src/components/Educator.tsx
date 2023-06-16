@@ -1,6 +1,10 @@
-import { Heading } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 const Educator = () => {
-  return <Heading>Educator</Heading>;
+  return (
+    <Flex m="10px" direction="column">
+      <Heading mb="10px">Educator</Heading>
+    </Flex>
+  );
 };
 export default Educator;
